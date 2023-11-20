@@ -15,6 +15,10 @@
     border: 1px dashed;
 }
 
+.border-bottom{
+    border-bottom: 1px solid blue;
+}
+
 /* color */
 
 .color-black{
@@ -196,7 +200,6 @@ p{
 
 .social_box{
     flex-basis: 30%;
-    border: 1px dashed;
 }
 
 .info_box{
@@ -228,4 +231,9 @@ p{
     height: 50px;
     width: 100px;
     border: 1px dashed;
+}
+
+.title-list{
+    color: #255EE9;
+    margin-bottom: 20px;
 }
