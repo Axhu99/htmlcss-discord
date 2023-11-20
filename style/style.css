@@ -27,7 +27,7 @@
 /* background */
 
 .bgc_header{
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     padding: 15px;
 }
 
@@ -54,6 +54,7 @@ background-color: goldenrod;
 
     background-color: black;
 }
+
 .background_grey{
     background-color: #D3D3D3;
     padding: 50px;
@@ -132,7 +133,7 @@ ul{
 .conteiner_bigger{
     display: flex;
     max-width: 1200px;
-    height: 800px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -164,7 +165,7 @@ ul{
     font-size: 40px;
 }
 
-.min-title{
+.mini-title{
 
     margin-bottom: 20px;
     font-size: 40px;
@@ -189,7 +190,6 @@ p{
 
 .bigger_box{
     flex-basis: 100%;
-    border: 1px dashed;
 }
 
 /* Footer */
