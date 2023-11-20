@@ -59,6 +59,13 @@
     background-color: #8EA1E1;
 }
 
+.background-star{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    height: 20px;
+    width: 500px;
+}
+
 /* ! conteiner */
 
 .container-nav{
@@ -155,6 +162,10 @@ a{
     cursor: pointer;
 }
 
+.cursopoit{
+    cursor: pointer;
+}
+
 /* Header */
 
 .logo{
@@ -194,7 +205,14 @@ a{
     flex-basis: 100%;
 }
 
-div > h3{
+.title-star{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section > h3{
+    flex-basis: 100%;
     margin-bottom: 20px;
 }
 
