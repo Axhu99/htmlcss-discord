@@ -1,0 +1,175 @@
+/* ? CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ? Utils */
+/* background */
+
+.bgc_header{
+    background-color: #ADD8E6;
+    padding: 15px;
+}
+
+.bgc_conteiner.conteiner_nav{
+background-color: goldenrod;
+}
+
+.background_spotlight{
+    background-color: #00008B;
+    padding: 50px;
+}
+
+.conteiner_spotlight.bgc_conteiner_spotlight{
+    background-color: #EE82EE;
+}
+
+.background_white{
+    background-color: white;
+    padding: 50px;
+}
+
+.background_grey{
+    background-color: #D3D3D3;
+    padding: 50px;
+}
+
+.background_black{
+    background-color: #23272A;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.background_big_box.big_box{
+    background-color: #1E90FF;
+}
+
+.background_small_box.small_box{
+    background-color: #FFC0CB;
+}
+
+.background_bigger_box.bigger_box{
+    background-color: #228B22;
+}
+
+.background_social_box.social_box{
+    background-color: #F08080;
+}
+
+.background_info_box.info_box{
+    background-color: #20B2AA;
+}
+
+.background_footer_box.footer_box{
+    background-color: #7FFFD4;
+}
+
+.background_end{
+    background-color: #FFB6C1;
+}
+/* ? Generics */
+
+/* conteiner */
+
+.conteiner_nav{
+    display: flex;
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+
+}
+.conteiner_large{
+    display: flex;
+    max-width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+.conteiner_spotlight{
+    display: flex;
+    max-width: 900px;
+    height: 400px;
+    margin: 0 auto;
+}
+.conteiner_bigger{
+    display: flex;
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+}
+/* Header */
+#logo{
+    flex-basis: 20%;
+    border: 1px dashed;
+}
+
+.navigation{
+    flex-basis: 60%;
+    border: 1px dashed;
+}
+
+.login{
+    flex-basis: 20%;
+    border: 1px dashed;
+}
+
+.spotlight{
+    flex-basis: 100%;
+    border: 1px dashed;
+}
+
+/* Main */
+
+.big_box{
+    flex-basis: 60%;
+    border: 1px dashed;
+}
+
+.small_box{
+    flex-basis: 40%;
+    border: 1px dashed;
+}
+
+.bigger_box{
+    flex-basis: 100%;
+    border: 1px dashed;
+}
+
+/* Footer */
+
+.social_box{
+    flex-basis: 30%;
+    border: 1px dashed;
+}
+
+.info_box{
+    flex-basis: 70%;
+    border: 1px dashed;
+    display: flex;
+}
+
+.smaller_box{
+    flex-basis: 25%;
+    border: 1px dashed white;
+}
+
+.footer_box{
+    height: 100px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end_logo{
+    height: 50px;
+    width: 100px;
+    border: 1px dashed;
+}
+
+.end_button{
+    height: 50px;
+    width: 100px;
+    border: 1px dashed;
+}
